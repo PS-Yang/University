@@ -1,5 +1,10 @@
 # universityHW
 
-First year of university
-	Computer Technology homework
-	OOP homework
+## First year of university <br> <h2>
+	
++ Computer Technology homework <br> 
+	
++ OOP homework <br> 
+
+
+	
