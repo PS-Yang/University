@@ -1,0 +1,44 @@
+(deftemplate permutation (multislot values)(multislot rest))
+(deffacts initial (total 0))
+(defrule read-base-fact
+ (declare(salience 100))
+ =>
+ (printout t "Please input a base fact for the permutation...")
+ (bind ?input (explode$ (readline)))
+ (assert (permutation (values) (rest ?input))))
+ 
+(defrule permutations
+ (permutation (values $?d)(rest $?a ?b $?c) ) 
+ =>
+ (assert (permutation (values $?d ?b)(rest $?a $?c) ))  ) 
+ 
+ (defrule print
+   (declare(salience -10))
+  ?f1 <-(permutation (values $?a)(rest  ) )  
+  ?f2 <-(total ?aa)
+  =>
+  (retract ?f1)
+  (retract ?f2)
+  (assert (total (+ ?aa 1)))
+  (printout t "Permutation..." $?a crlf)
+  )
+  
+ (defrule print_n
+  (declare(salience -100))
+   (total ?aa )
+   =>
+  (printout t "The total number is " ?aa crlf)
+ )
+ 
+  
+   
+   
+   
+   
+
+ 
+ 
+ 
+ 
+ 
+ 

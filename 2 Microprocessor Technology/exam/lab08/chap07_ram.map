@@ -1,0 +1,480 @@
+Archive member included       because of file (symbol)
+
+/usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(__main.o)
+                              chap07.o (__gccmain)
+/usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(_ctors.o)
+                              /usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(__main.o) (__CTOR_LIST__)
+/usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(_divsi3.o)
+                              lcd.o (__divsi3)
+/usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(_dvmd_tls.o)
+                              /usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(_divsi3.o) (__div0)
+/usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(_exit.o)
+                              /usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(__main.o) (_exit_dummy_decl)
+/usr/local/arm-elf/lib/libc.a(__uClibc_main.o)
+                              /usr/local/arm-elf/lib/crt0.o (__uClibc_main)
+/usr/local/arm-elf/lib/libc.a(vsprintf.o)
+                              lcd.o (vsprintf)
+/usr/local/arm-elf/lib/libc.a(vsnprintf.o)
+                              /usr/local/arm-elf/lib/libc.a(vsprintf.o) (vsnprintf)
+/usr/local/arm-elf/lib/libc.a(vfnprintf.o)
+                              /usr/local/arm-elf/lib/libc.a(vsnprintf.o) (vfnprintf)
+/usr/local/arm-elf/lib/libc.a(atexit.o)
+                              /usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(__main.o) (atexit)
+/usr/local/arm-elf/lib/libc.a(exit.o)
+                              /usr/local/arm-elf/lib/libc.a(__uClibc_main.o) (exit)
+/usr/local/arm-elf/lib/libc.a(errno.o)
+                              /usr/local/arm-elf/lib/libc.a(__uClibc_main.o) (__errno_location)
+/usr/local/arm-elf/lib/libc.a(_exit.o)
+                              /usr/local/arm-elf/lib/libc.a(exit.o) (_exit)
+/usr/local/arm-elf/lib/libc.a(ultostr.o)
+                              /usr/local/arm-elf/lib/libc.a(vfnprintf.o) (__ultostr)
+/usr/local/arm-elf/lib/libc.a(ltostr.o)
+                              /usr/local/arm-elf/lib/libc.a(vfnprintf.o) (__ltostr)
+/usr/local/arm-elf/lib/libc.a(dtostr.o)
+                              /usr/local/arm-elf/lib/libc.a(vfnprintf.o) (__dtostr)
+/usr/local/arm-elf/lib/libc.a(_stdio_init.o)
+                              /usr/local/arm-elf/lib/libc.a(atexit.o) (__stdio_close_all)
+/usr/local/arm-elf/lib/libc.a(ferror.o)
+                              /usr/local/arm-elf/lib/libc.a(vfnprintf.o) (ferror)
+/usr/local/arm-elf/lib/libc.a(fflush.o)
+                              /usr/local/arm-elf/lib/libc.a(vfnprintf.o) (fflush)
+/usr/local/arm-elf/lib/libc.a(fputc.o)
+                              /usr/local/arm-elf/lib/libc.a(vfnprintf.o) (fputc)
+/usr/local/arm-elf/lib/libc.a(_uClibc_fwrite.o)
+                              /usr/local/arm-elf/lib/libc.a(fflush.o) (_uClibc_fwrite)
+/usr/local/arm-elf/lib/libc.a(sprintf.o)
+                              /usr/local/arm-elf/lib/libc.a(dtostr.o) (sprintf)
+/usr/local/arm-elf/lib/libc.a(fnprintf.o)
+                              /usr/local/arm-elf/lib/libc.a(dtostr.o) (fnprintf)
+/usr/local/arm-elf/lib/libc.a(isatty.o)
+                              /usr/local/arm-elf/lib/libc.a(_stdio_init.o) (isatty)
+/usr/local/arm-elf/lib/libc.a(tcgetattr.o)
+                              /usr/local/arm-elf/lib/libc.a(isatty.o) (tcgetattr)
+/usr/local/arm-elf/lib/libc.a(write.o)
+                              /usr/local/arm-elf/lib/libc.a(_uClibc_fwrite.o) (write)
+/usr/local/arm-elf/lib/libc.a(_ioctl.o)
+                              /usr/local/arm-elf/lib/libc.a(tcgetattr.o) (ioctl)
+/usr/local/arm-elf/lib/libc.a(fseek.o)
+                              /usr/local/arm-elf/lib/libc.a(_uClibc_fwrite.o) (fseek)
+/usr/local/arm-elf/lib/libc.a(memset.o)
+                              /usr/local/arm-elf/lib/libc.a(tcgetattr.o) (memset)
+/usr/local/arm-elf/lib/libc.a(mempcpy.o)
+                              /usr/local/arm-elf/lib/libc.a(tcgetattr.o) (mempcpy)
+/usr/local/arm-elf/lib/libc.a(lseek.o)
+                              /usr/local/arm-elf/lib/libc.a(fseek.o) (lseek)
+/usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(_udivsi3.o)
+                              /usr/local/arm-elf/lib/libc.a(ultostr.o) (__udivsi3)
+/usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(_umodsi3.o)
+                              /usr/local/arm-elf/lib/libc.a(ultostr.o) (__umodsi3)
+/usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(dp-bit.o)
+                              /usr/local/arm-elf/lib/libc.a(dtostr.o) (__subdf3)
+/usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(fp-bit.o)
+                              /usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(dp-bit.o) (__make_fp)
+/usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(_lshrdi3.o)
+                              /usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(dp-bit.o) (__lshrdi3)
+
+Allocating common symbols
+Common symbol       size              file
+
+scan_key_in_idx     0x4               driver.o
+scan_key_buf        0x20              driver.o
+cpld_ctrl           0x4               chap07.o
+scan_key_out_idx    0x4               driver.o
+tick_sec            0x4               driver.o
+key_assigned        0x4               driver.o
+io_reg2             0x4               chap07.o
+_fixed_buffers      0x400             /usr/local/arm-elf/lib/libc.a(_stdio_init.o)
+seven_seg_idx       0x4               driver.o
+seven_seg_buf       0x4               driver.o
+col                 0x4               chap07.o
+tick_on             0x4               driver.o
+min                 0x4               driver.o
+tick_min            0x4               driver.o
+sec                 0x4               driver.o
+scan_idx            0x4               driver.o
+last_scan_key       0x4               driver.o
+new_row             0x4               chap07.o
+io_reg0             0x4               driver.o
+tick_hour           0x4               driver.o
+new_col             0x4               chap07.o
+tick_ms             0x4               driver.o
+scan_key            0x4               driver.o
+row                 0x4               chap07.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /usr/local/lib/gcc-lib/arm-elf/2.95.3/crtbegin.o
+LOAD /usr/local/arm-elf/lib/crt0.o
+LOAD chap07.o
+LOAD sbrk.o
+LOAD driver.o
+LOAD lcd.o
+LOAD head_ram.o
+LOAD /usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a
+LOAD /usr/local/arm-elf/lib/libc.a
+LOAD /usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a
+LOAD /usr/local/lib/gcc-lib/arm-elf/2.95.3/crtend.o
+
+.text           0x00000000     0x69a0
+                0x00000000                _text=.
+ *(.stext)
+ .stext         0x00000000      0x27c head_ram.o
+                0x00000000                stext
+ *(.text)
+ .text          0x0000027c       0x14 /usr/local/arm-elf/lib/crt0.o
+                0x0000027c                _start
+ .text          0x00000290      0x7c8 chap07.o
+                0x000004a8                draw_line
+                0x000003ac                Initial_Creator
+                0x0000042c                WriteLCD
+                0x000004ec                main
+                0x00000290                Keypad
+ .text          0x00000a58       0x6c sbrk.o
+                0x00000a58                sbrk
+ .text          0x00000ac4      0xd70 driver.o
+                0x00000ac4                IRQ_TIMER0
+                0x00000dc4                KEYPAD_chk_key
+                0x00001394                IICReadAIC
+                0x00001754                RTC_get_time
+                0x00000c68                Initial_KEYPAD
+                0x00001644                _7SEG_put_led
+                0x00000e44                Creator_key2num
+                0x0000126c                IICWriteAIC
+                0x00000b08                Initial_TIMER0
+                0x00000efc                IICWriteRTC
+                0x00001024                IICReadRTC
+                0x000015ec                Initial_7SEG
+                0x00000d1c                KEYPAD_get_key
+                0x00000ba4                Delay
+                0x00000ec8                IICSetup
+                0x00000b94                OptimizationDelay
+                0x00001698                RTC_set_time
+ .text          0x00001834      0xb10 lcd.o
+                0x00001dd8                LCD_putchar
+                0x00001844                ReadLCD
+                0x00001ce4                LCD_displ
+                0x00001a08                LCD_Cursor
+                0x00001c2c                LCD_scroll
+                0x00001b40                LCD_ClearScreen
+                0x00001f34                LCD_CursorMode
+                0x00002028                LCD_SetCursor
+                0x00002194                InitialLCD
+                0x000022a4                Initial_LCD
+                0x00001afc                LCD_PutRAMData
+                0x00001998                LCD_printf
+                0x00001bb8                LCD_ClearOneLine
+                0x00001930                LCD_ClearViewArea
+                0x0000211c                LCD_DrawFullImage
+                0x00001f70                LCD_EnableCursor
+                0x00001fe0                LCD_GetCursor
+ .text          0x00002344       0xfc /usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(__main.o)
+                0x00002410                __gccmain
+                0x00002344                __do_global_dtors
+                0x00002394                __do_global_ctors
+ .text          0x00002440       0xb0 /usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(_divsi3.o)
+                0x00002440                __divsi3
+ .text          0x000024f0        0x4 /usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(_dvmd_tls.o)
+                0x000024f0                __div0
+ .text          0x000024f4       0x60 /usr/local/arm-elf/lib/libc.a(__uClibc_main.o)
+                0x000024f4                __uClibc_main
+ .text          0x00002554       0x24 /usr/local/arm-elf/lib/libc.a(vsprintf.o)
+                0x00002554                vsprintf
+ .text          0x00002578       0x40 /usr/local/arm-elf/lib/libc.a(vsnprintf.o)
+                0x00002578                vsnprintf
+ .text          0x000025b8      0x63c /usr/local/arm-elf/lib/libc.a(vfnprintf.o)
+                0x000025b8                vfnprintf
+ .text          0x00002bf4       0xdc /usr/local/arm-elf/lib/libc.a(atexit.o)
+                0x00002c58                atexit
+ .text          0x00002cd0       0x38 /usr/local/arm-elf/lib/libc.a(exit.o)
+                0x00002cd0                exit
+ .text          0x00002d08       0x18 /usr/local/arm-elf/lib/libc.a(errno.o)
+                0x00002d08                __errno_location
+ .text          0x00002d20       0x34 /usr/local/arm-elf/lib/libc.a(_exit.o)
+                0x00002d20                _exit
+ .text          0x00002d54       0x84 /usr/local/arm-elf/lib/libc.a(ultostr.o)
+                0x00002d54                __ultostr
+ .text          0x00002dd8       0x44 /usr/local/arm-elf/lib/libc.a(ltostr.o)
+                0x00002dd8                __ltostr
+ .text          0x00002e1c      0x704 /usr/local/arm-elf/lib/libc.a(dtostr.o)
+                0x00002e1c                __dtostr
+ .text          0x00003520       0x44 /usr/local/arm-elf/lib/libc.a(_stdio_init.o)
+                0x00003538                __init_stdio
+                0x00003520                __stdio_close_all
+ .text          0x00003564       0x18 /usr/local/arm-elf/lib/libc.a(ferror.o)
+                0x00003564                ferror
+ .text          0x0000357c       0xac /usr/local/arm-elf/lib/libc.a(fflush.o)
+                0x0000357c                fflush
+ .text          0x00003628       0x3c /usr/local/arm-elf/lib/libc.a(fputc.o)
+                0x00003628                fputc
+ .text          0x00003664      0x1b0 /usr/local/arm-elf/lib/libc.a(_uClibc_fwrite.o)
+                0x00003664                _uClibc_fwrite
+ .text          0x00003814       0x24 /usr/local/arm-elf/lib/libc.a(sprintf.o)
+                0x00003814                sprintf
+ .text          0x00003838       0x20 /usr/local/arm-elf/lib/libc.a(fnprintf.o)
+                0x00003838                fnprintf
+ .text          0x00003858       0x28 /usr/local/arm-elf/lib/libc.a(isatty.o)
+                0x00003858                isatty
+ .text          0x00003880       0x78 /usr/local/arm-elf/lib/libc.a(tcgetattr.o)
+                0x00003880                tcgetattr
+ .text          0x000038f8       0x4c /usr/local/arm-elf/lib/libc.a(write.o)
+                0x000038f8                __write
+                0x000038f8                write
+ .text          0x00003944       0x68 /usr/local/arm-elf/lib/libc.a(_ioctl.o)
+                0x00003990                ioctl
+                0x00003944                _ioctl
+ .text          0x000039ac       0xd4 /usr/local/arm-elf/lib/libc.a(fseek.o)
+                0x000039ac                fseek
+ .text          0x00003a80       0x38 /usr/local/arm-elf/lib/libc.a(memset.o)
+                0x00003a80                memset
+ .text          0x00003ab8       0x3c /usr/local/arm-elf/lib/libc.a(mempcpy.o)
+                0x00003ab8                mempcpy
+                0x00003ab8                __mempcpy
+ .text          0x00003af4       0x4c /usr/local/arm-elf/lib/libc.a(lseek.o)
+                0x00003af4                lseek
+ .text          0x00003b40       0x98 /usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(_udivsi3.o)
+                0x00003b40                __udivsi3
+ .text          0x00003bd8       0xb4 /usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(_umodsi3.o)
+                0x00003bd8                __umodsi3
+ .text          0x00003c8c     0x150c /usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(dp-bit.o)
+                0x00004c54                __cmpdf2
+                0x00004ca4                __eqdf2
+                0x00004d84                __gtdf2
+                0x000050fc                __make_dp
+                0x00004f44                __floatsidf
+                0x00004e64                __ltdf2
+                0x00003e74                __unpack_d
+                0x000042c4                __adddf3
+                0x0000500c                __fixdfsi
+                0x00004ed4                __ledf2
+                0x00004ae8                __fpcmp_parts_d
+                0x000050b4                __negdf2
+                0x00004874                __divdf3
+                0x00004380                __muldf3
+                0x00005138                __truncdfsf2
+                0x00004d14                __nedf2
+                0x00004df4                __gedf2
+                0x0000431c                __subdf3
+                0x00003c8c                __pack_d
+ .text          0x00005198      0xd20 /usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(fp-bit.o)
+                0x00005798                __divsf3
+                0x00005d5c                __fixsfsi
+                0x00005e40                __make_fp
+                0x000055a8                __subsf3
+                0x00005c58                __lesf2
+                0x00005e6c                __extendsfdf2
+                0x00005ab8                __nesf2
+                0x00005298                __unpack_f
+                0x00005b20                __gtsf2
+                0x00005198                __pack_f
+                0x00005cc0                __floatsisf
+                0x00005a50                __eqsf2
+                0x00005dfc                __negsf2
+                0x00005a08                __cmpsf2
+                0x00005bf0                __ltsf2
+                0x00005604                __mulsf3
+                0x00005b88                __gesf2
+                0x000058e4                __fpcmp_parts_f
+                0x00005558                __addsf3
+ .text          0x00005eb8       0x40 /usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(_lshrdi3.o)
+                0x00005eb8                __lshrdi3
+ *(.rodata)
+ .rodata        0x00005ef8       0x22 chap07.o
+                0x00005ef8                Select_Scan
+                0x00005f08                LED_tb2
+                0x00005efc                pattern
+ .rodata        0x00005f1a       0x12 driver.o
+                0x00005f1a                LED_tbl
+ .rodata        0x00005f2c      0xa00 lcd.o
+ .rodata        0x0000692c       0x37 /usr/local/arm-elf/lib/libc.a(vfnprintf.o)
+ *fill*         0x00006963        0x1
+ .rodata        0x00006964       0x39 /usr/local/arm-elf/lib/libc.a(dtostr.o)
+ *fill*         0x0000699d        0x3
+                0x000069a0                .=ALIGN(0x4)
+                0x000069a0                _etext=.
+
+.glue_7t        0x000069a0        0x0
+
+.glue_7         0x000069a0        0x0
+
+.data           0x000069a0       0xf0
+                0x000069a0                _sdata=.
+ *(.data)
+ .data          0x000069a0       0x2a driver.o
+                0x000069aa                key2num_tbl
+                0x000069a8                scan_led
+                0x000069a0                tbl_7seg_com
+ *fill*         0x000069ca        0x2
+ .data          0x000069cc        0x8 /usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(__main.o)
+                0x000069d0                _exit_dummy_ref
+ .data          0x000069d4       0x10 /usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(_ctors.o)
+                0x000069d4                __CTOR_LIST__
+                0x000069dc                __DTOR_LIST__
+ .data          0x000069e4        0x4 /usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(_exit.o)
+                0x000069e4                _exit_dummy_decl
+ .data          0x000069e8        0x8 /usr/local/arm-elf/lib/libc.a(__uClibc_main.o)
+                0x000069ec                __environ
+                0x000069ec                environ
+                0x000069e8                __uClibc_cleanup
+ .data          0x000069f0        0x4 /usr/local/arm-elf/lib/libc.a(atexit.o)
+ .data          0x000069f4        0x4 /usr/local/arm-elf/lib/libc.a(errno.o)
+                0x000069f4                errno
+ .data          0x000069f8       0x20 /usr/local/arm-elf/lib/libc.a(dtostr.o)
+ .data          0x00006a18       0x75 /usr/local/arm-elf/lib/libc.a(_stdio_init.o)
+                0x00006a7c                stdout
+                0x00006a8c                _free_buffer_index
+                0x00006a18                _stdio_streams
+                0x00006a88                _free_file_list
+                0x00006a78                stdin
+                0x00006a80                stderr
+                0x00006a84                __IO_list
+ *fill*         0x00006a8d        0x3
+                0x00006a90                .=ALIGN(0x4)
+                0x00006a90                _edata=.
+
+.dtors          0x00006a90        0x8
+ .dtors         0x00006a90        0x4 /usr/local/lib/gcc-lib/arm-elf/2.95.3/crtbegin.o
+ .dtors         0x00006a94        0x4 /usr/local/lib/gcc-lib/arm-elf/2.95.3/crtend.o
+
+.ctors          0x00006a98        0x8
+ .ctors         0x00006a98        0x4 /usr/local/lib/gcc-lib/arm-elf/2.95.3/crtbegin.o
+ .ctors         0x00006a9c        0x4 /usr/local/lib/gcc-lib/arm-elf/2.95.3/crtend.o
+
+.bss            0x00006aa0      0x5a0
+                0x00006aa0                _sbss=.
+ *(.bss)
+ .bss           0x00006aa0        0x4 sbrk.o
+ .bss           0x00006aa4       0x24 lcd.o
+ .bss           0x00006ac8       0x70 head_ram.o
+                0x00006afc                pISR_U1TINT
+                0x00006ae0                pISR_FIQ
+                0x00006ad8                pISR_Reserved
+                0x00006ad4                pISR_Dabort
+                0x00006aec                pISR_EXT2
+                0x00006adc                pISR_IRQ
+                0x00006af8                pISR_U0RERR
+                0x00006ad0                pISR_Pabort
+                0x00006ae4                pISR_EXT0
+                0x00006b00                pISR_U1RERR
+                0x00006ac8                pISR_Undef
+                0x00006af4                pISR_U0TINT
+                0x00006acc                pISR_SWI
+                0x00006b0c                pISR_TIMER0
+ .bss           0x00006b38        0x4 /usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(__main.o)
+ .bss           0x00006b3c       0x50 /usr/local/arm-elf/lib/libc.a(atexit.o)
+ .bss           0x00006b8c       0x14 /usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(dp-bit.o)
+ .bss           0x00006ba0       0x10 /usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(fp-bit.o)
+ *(COMMON)
+ COMMON         0x00006bb0       0x18 chap07.o
+                                  0x0 (size before relaxing)
+                0x00006bb0                cpld_ctrl
+                0x00006bb4                io_reg2
+                0x00006bb8                col
+                0x00006bbc                new_row
+                0x00006bc0                new_col
+                0x00006bc4                row
+ *fill*         0x00006bc8        0x8
+ COMMON         0x00006bd0       0x6c driver.o
+                                  0x0 (size before relaxing)
+                0x00006bd0                scan_key_in_idx
+                0x00006be0                scan_key_buf
+                0x00006c00                scan_key_out_idx
+                0x00006c04                tick_sec
+                0x00006c08                key_assigned
+                0x00006c0c                seven_seg_idx
+                0x00006c10                seven_seg_buf
+                0x00006c14                tick_on
+                0x00006c18                min
+                0x00006c1c                tick_min
+                0x00006c20                sec
+                0x00006c24                scan_idx
+                0x00006c28                last_scan_key
+                0x00006c2c                io_reg0
+                0x00006c30                tick_hour
+                0x00006c34                tick_ms
+                0x00006c38                scan_key
+ *fill*         0x00006c3c        0x4
+ COMMON         0x00006c40      0x400 /usr/local/arm-elf/lib/libc.a(_stdio_init.o)
+                                  0x0 (size before relaxing)
+                0x00006c40                _fixed_buffers
+                0x00007040                .=ALIGN(0x4)
+                0x00007040                _ebss=.
+                0x00007040                _end=.
+
+.stack          0x01000000        0x0
+                0x01000000                _USR_STACK=.
+                0x00fff000                _IRQ_STACK=(.-0x1000)
+                0x00fff000                _FIQ_STACK=(.-0x1000)
+                0x00fff000                __stack_limit=(.-0x1000)
+OUTPUT(chap07_ram.axf elf32-littlearm)
+
+.debug_abbrev   0x01000000      0x6a9
+ .debug_abbrev  0x01000000      0x13f chap07.o
+ .debug_abbrev  0x0100013f      0x10a sbrk.o
+ .debug_abbrev  0x01000249      0x16c driver.o
+ .debug_abbrev  0x010003b5      0x1ba lcd.o
+ .debug_abbrev  0x0100056f       0x21 /usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(__main.o)
+ .debug_abbrev  0x01000590        0xe /usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(_ctors.o)
+ .debug_abbrev  0x0100059e        0xe /usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(_exit.o)
+ .debug_abbrev  0x010005ac       0x6e /usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(dp-bit.o)
+ .debug_abbrev  0x0100061a       0x6e /usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(fp-bit.o)
+ .debug_abbrev  0x01000688       0x21 /usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(_lshrdi3.o)
+
+.debug_info     0x010006a9     0x4a86
+ .debug_info    0x010006a9      0xf44 chap07.o
+ .debug_info    0x010015ed      0xdc8 sbrk.o
+ .debug_info    0x010023b5      0x837 driver.o
+ .debug_info    0x01002bec     0x1583 lcd.o
+ .debug_info    0x0100416f      0x11b /usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(__main.o)
+ .debug_info    0x0100428a       0xbf /usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(_ctors.o)
+ .debug_info    0x01004349       0xbf /usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(_exit.o)
+ .debug_info    0x01004408      0x627 /usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(dp-bit.o)
+ .debug_info    0x01004a2f      0x628 /usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(fp-bit.o)
+ .debug_info    0x01005057       0xd8 /usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(_lshrdi3.o)
+
+.debug_line     0x0100512f     0x18df
+ .debug_line    0x0100512f      0x66d chap07.o
+ .debug_line    0x0100579c      0x3a8 sbrk.o
+ .debug_line    0x01005b44      0x5cd driver.o
+ .debug_line    0x01006111      0x8fd lcd.o
+
+.debug_pubnames
+                0x01006a0e      0x71d
+ .debug_pubnames
+                0x01006a0e       0xbf chap07.o
+ .debug_pubnames
+                0x01006acd       0x1b sbrk.o
+ .debug_pubnames
+                0x01006ae8      0x270 driver.o
+ .debug_pubnames
+                0x01006d58      0x13c lcd.o
+ .debug_pubnames
+                0x01006e94       0x4c /usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(__main.o)
+ .debug_pubnames
+                0x01006ee0      0x115 /usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(dp-bit.o)
+ .debug_pubnames
+                0x01006ff5      0x116 /usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(fp-bit.o)
+ .debug_pubnames
+                0x0100710b       0x20 /usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(_lshrdi3.o)
+
+.debug_aranges  0x0100712b      0x100
+ .debug_aranges
+                0x0100712b       0x20 chap07.o
+ .debug_aranges
+                0x0100714b       0x20 sbrk.o
+ .debug_aranges
+                0x0100716b       0x20 driver.o
+ .debug_aranges
+                0x0100718b       0x20 lcd.o
+ .debug_aranges
+                0x010071ab       0x20 /usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(__main.o)
+ .debug_aranges
+                0x010071cb       0x20 /usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(dp-bit.o)
+ .debug_aranges
+                0x010071eb       0x20 /usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(fp-bit.o)
+ .debug_aranges
+                0x0100720b       0x20 /usr/local/lib/gcc-lib/arm-elf/2.95.3/libgcc.a(_lshrdi3.o)

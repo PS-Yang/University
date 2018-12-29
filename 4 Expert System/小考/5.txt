@@ -1,0 +1,96 @@
+(deftemplate set (multislot name)(multislot members))
+(deffacts initial  (phase inputnumber))
+
+(defrule read
+ (phase inputnumber)
+  =>
+ (printout t "Please input an integer set s1:")
+ (bind ?input (explode$ (readline)))
+ (assert (set (name s1) (members ?input)))
+ (printout t "Please input an integer set s2:")
+ (bind ?input2 (explode$ (readline)))
+ (assert (set (name s2) (members ?input2))))
+ 
+(defrule input-wrong
+  ?phase<-(phase inputnumber)
+  ?f1<-(set (name s1) (members $? ?a $?))
+  ?f2<-(set (name s2) (members $? ?b $?))
+  (test (or(not(integerp ?a)) (not(integerp ?b)) ) )
+   =>
+  (retract ?phase  ?f1 ?f2) 
+  (printout t "Input error!! Some elements are not integers!!" crlf)
+  (assert (phase inputnumber))) 
+  
+(defrule input-wrong2
+  ?phase<-(phase inputnumber)
+  ?f1<-(set (name s1) (members $? ?a $? ?b $?))
+  ?f2<-(set (name s2) (members $? ?c $? ?d $?))
+  (test (or ( eq ?a ?b)  (eq ?c ?d) ) )
+   =>
+  (retract ?phase  ?f1 ?f2) 
+  (printout t "Input error!! Duplicate elements are not allowed in sets!!" crlf)
+  (assert (phase inputnumber))) 
+  
+(defrule input-right 
+  ?phase<-(phase inputnumber)
+  ?f1<-(set (name s1) (members $? ?a $? ?b $?))
+  ?f2<-(set (name s2) (members $? ?c $? ?d $?))
+  (test (not( eq ?a ?b)))
+  (test (not( eq ?c ?d)))
+  (test ( integerp ?a))
+  (test ( integerp ?b))
+  (test ( integerp ?c))
+  (test ( integerp ?d))
+  =>
+  (retract ?phase ) 
+  (assert (phase number-begin))) 
+  
+(defrule number_begin  
+   ?phase<- (phase number-begin)   
+   (set (name s1) (members $?a))
+   (set (name s2) (members $?b))
+   =>
+   (retract ?phase ) 
+   (assert(set (name s1 union s2) (members $?a $?b))) 
+   (assert(set (name s1 intersect s2) (members )))       
+   (assert (phase number-deal)) )
+   
+(defrule number_deal
+    (phase number-deal)
+	?f1<-(set(name s1 union s2) (members $?a ?m1 $?b ?m2 $?c))
+	?f2<-(set(name s1 intersect s2) (members $?m3))
+	(test(eq ?m1 ?m2))
+    =>
+    (retract ?f1 ?f2)
+	(assert(set(name s1 union s2) (members $?a ?m1 $?b $?c)))	
+    (assert(set(name s1 intersect s2) (members $?m3 ?m1))))
+
+(defrule jump 
+   (declare(salience -10))
+   ?phase<- (phase number-deal)   
+   =>
+   (retract ?phase ) 
+   (assert (phase number-sort)) )
+	
+(defrule number  
+  (phase number-sort)
+   ?f1<-(set (name $?name) (members $?a ?b $?c ?d $?e))
+   (test(> ?b ?d))
+   =>
+   (retract ?f1 ) 
+   (assert(set (name $?name) (members $?a ?d $?c ?b $?e)))) 
+   
+(defrule jump2 
+   (declare(salience -10))
+   ?phase<- (phase number-sort)   
+   =>
+   (retract ?phase ) 
+   (assert (phase fileout)))
+   
+(defrule txt
+  (phase fileout)
+  (set (name $?name) (members $?m))
+   =>
+  (open "set.txt" stuff "a")
+  (printout stuff "(set(name "(implode$  $?name) ")(members "  (implode$ $?m) "))"crlf)
+  (close stuff))   

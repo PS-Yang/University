@@ -1,0 +1,10 @@
+#ifndef _ADS_COMPILER_OPTIONS_H
+#define _ADS_COMPILER_OPTIONS_H
+
+
+#define IRQ_ATTR1	
+#define IRQ_ATTR2	 
+
+#define END_FILE	END
+
+#endif // _ADS_COMPILER_OPTIONS_H

@@ -1,0 +1,16 @@
+作業五 
+以branch and bound 方法解 0/1背包問題 
+
+由檔案輸入: 
+
+第一列 n M (代表個數 總重量限制) 
+第二列輸入 n個 物品的重量 
+第三列輸入 n個 物品的獲利 
+
+須以greedy method 計算每節點的 lower bound 與 upper bound 
+計算過程須呈現目前最佳值(upper bound)與該節點的lower bound 與 upper bound 
+可以任意的搜尋方式如DFS BFS HL Best first search 
+最後須輸出選取方法與獲利 
+
+範例：
+6 20 2 4 5 7 2 9 1 3 5 3 8 3 

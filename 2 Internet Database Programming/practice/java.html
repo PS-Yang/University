@@ -1,0 +1,48 @@
+
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>JavaScript表單欄位檢查</title>
+<script language="javascript"> 
+function check() { 
+  
+  
+  var checked_id = -1;
+  var arr_sex=['女生','男生'];  
+  
+  var arr_dept = ['','資訊工程系','企業管理系','資訊管理系']; 
+  var sel_id = document.form1.dept.selectedIndex ; 
+  var dept_no = document.form1.dept.options[sel_id].value ;
+  
+  for (var i=0;i<document.form1.stud_sex.length;i++) 
+  {
+    if (document.form1.stud_sex[i].checked) checked_id = i ;
+  }
+
+  if (checked_id >= 0 || dept_no != "") alert('您的選擇為：' + arr_sex[checked_id] + arr_dept[sel_id] + dept_no);
+  else alert('您尚未選擇！');
+  
+
+
+
+} 
+</script>
+</head>
+<body>
+<form name='form1' method='POST' action='work3.php' >
+學號：<input type='text' name='stud_no'><br>
+性別：<input type='radio' name='stud_sex' value=0>女生<input type='radio' name='stud_sex' value=1>男生 <br>
+系所：
+<select name='dept_name'>
+  <option value='' selected>請選擇</option>
+  <option value='資訊工程系'>資訊工程系</option>
+  <option value='企業管理系'>企業管理系</option>
+  <option value='資訊管理系'>資訊管理系</option>
+</select>
+<br>
+<br>
+<input type='button' value='送出' onclick='check()'>　
+<input type='reset' value='重設' > 
+</form>
+</body>
+</html> 

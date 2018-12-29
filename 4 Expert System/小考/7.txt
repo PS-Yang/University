@@ -1,0 +1,72 @@
+(defmodule MAIN (export deftemplate sentence))
+(defrule MAIN::control-rule
+ (not(sentence $?))
+ =>
+ (printout t "Enter a sentence(<CR> to end): ")
+ (assert (sentence (explode$ (readline))))
+ (focus PRODUCTION RECOGNIZE))
+
+(defmodule PRODUCTION (import MAIN deftemplate sentence))
+(deffacts PRODUCTION::productions
+ (production <determiner> a)
+ (production <determiner> an)
+ (production <determiner> the)
+ (production <adjective> small)
+ (production <adjective> big)
+ (production <adjective> white)
+ (production <adjective> black)
+ (production <noun> dog)
+ (production <noun> cat)
+ (production <noun> yard)
+ (production <noun> house)
+ (production <preposition> at)
+ (production <preposition> in)
+ (production <preposition> with)
+ (production <verb> purse)
+ (production <verb> catch)
+ (production <verb> bite)
+ (production <verb> scratch) 
+ (production <noun> <adjective> <noun>)
+ (production <term> <noun>)
+ (production <term> <determiner> <noun>)
+ (production <indirect-object> <preposition> <term>)
+ (production <simple-sentence> <term> <verb> <term>)
+ (production <sentence> <simple-sentence>)
+ (production <sentence> <simple-sentence> <indirect-object>))
+
+(defrule PRODUCTION::r1
+ (declare(salience 20))
+ ?f <- (sentence $?head $?a $?end)
+ (production ?b $?a)
+ (test(neq(sub-string 1 1 (implode$ $?a)) "<"))
+  =>
+ (retract ?f)
+ (assert (sentence $?head ?b $?end)))
+ 
+(defrule PRODUCTION::r2
+ ?f1 <- (sentence $?head1 $?p1 $?end1)
+ (production ?b $?p1)
+ (not (and (production ? $?p2) (sentence $?head2 $?p2 $?end2) (test(> (length$ $?p2) (length$ $?p1)))))
+  =>
+ (retract ?f1)
+ (assert (sentence $?head1 ?b $?end1)) )
+ 
+(defmodule RECOGNIZE (import MAIN deftemplate sentence))
+(defrule RECOGNIZE::print
+  ?f<-(sentence <sentence>)
+   =>
+  (retract ?f)
+  (printout t "Correct!"  crlf))
+
+(defrule RECOGNIZE::print3
+  ?f<-(sentence )
+   =>
+  (retract ?f)
+  (halt))  
+ 
+(defrule RECOGNIZE::print2
+   (declare(salience -20))
+  ?f<-(sentence ?a $?b)
+   =>
+  (retract ?f)
+  (printout t "Wrong!" crlf))  

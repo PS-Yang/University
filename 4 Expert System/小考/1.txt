@@ -1,0 +1,50 @@
+(deftemplate trouble(slot type))
+(deftemplate situation(slot type))
+(defrule trouble-type-A-1
+	(situation(type noise-when-brake|noise-from-tire)) 
+	=>
+	(assert(trouble(type A))))
+
+(defrule trouble-type-B-1
+	(situation(type water-thermometer|water-leak)) 
+	=>
+	(assert(trouble(type B))))
+
+(defrule trouble-type-C-1
+	(situation(type noise-from-engine-room)) 
+	=>
+	(assert(trouble(type C))))
+
+(defrule trouble-type-D-1
+	(situation(type engine-cannot-catch)) 
+	=>
+	(assert(trouble(type D))))
+
+(defrule deal-with-type-A
+	(trouble(type A))
+	=>
+	(printout t"check brake pedal and oil" crlf))
+
+(defrule deal-with-type-B
+	(trouble(type B))
+	=>
+	(printout t"repair the water tank or add water" crlf))
+
+(defrule deal-with-type-C
+	(trouble(type C))
+	=>
+	(printout t"change the engine belt" crlf))
+
+(defrule deal-with-type-D
+	(trouble(type D))
+	=>
+	(printout t"replace or charge a car battery" crlf))
+
+(deffacts initial (situation( type noise-when-brake)) 
+	   	  (situation( type noise-from-tire))  
+	   	  (situation( type noise-from-engine-room)))
+
+
+
+
+
