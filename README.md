@@ -18,12 +18,12 @@
 + 2 Microprocessor Technology <br> 
 	- homework and exam (c language)
 + 3 Algorithm implement (C++ language)<br> 
-	- 1 2D rank finding 
-	- 2 2-way merging 
-	- 3 2D closest pair
-	- 4 8-puzzle(hill Climbing) 
-	- 5 branch and bound 
-	- 6 Longest Common Subsequence
+	- (1) 2D rank finding 
+	- (2) 2-way merging 
+	- (3) 2D closest pair
+	- (4) 8-puzzle(hill Climbing) 
+	- (5) branch and bound 
+	- (6) Longest Common Subsequence
 + 3 System Analysis and Design <br> 
 	- Simple Reservation System(JAVA PHP MYSQL)
 + 4 Expert System <br> 
