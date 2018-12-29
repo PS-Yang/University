@@ -29,8 +29,5 @@
 + 4 Expert System <br> 
 	- test and final exam (CLIPS)
 + 4 Window Programming <br> 
-	
-
-
-
+	- MFC , Windows Forms Application simple code.
 	
