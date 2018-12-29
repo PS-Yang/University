@@ -1,0 +1,15 @@
+c:\users\user76\documents\visual studio 2013\Projects\ScreenProtect\ScreenProtect\bin\Debug\ScreenProtect.exe.config
+c:\users\user76\documents\visual studio 2013\Projects\ScreenProtect\ScreenProtect\obj\Debug\ScreenProtect.csprojResolveAssemblyReference.cache
+c:\users\user76\documents\visual studio 2013\Projects\ScreenProtect\ScreenProtect\obj\Debug\ScreenProtect.Properties.Resources.resources
+c:\users\user76\documents\visual studio 2013\Projects\ScreenProtect\ScreenProtect\obj\Debug\ScreenProtect.csproj.GenerateResource.Cache
+c:\users\user76\documents\visual studio 2013\Projects\ScreenProtect\ScreenProtect\bin\Debug\ScreenProtect.exe
+c:\users\user76\documents\visual studio 2013\Projects\ScreenProtect\ScreenProtect\bin\Debug\ScreenProtect.pdb
+c:\users\user76\documents\visual studio 2013\Projects\ScreenProtect\ScreenProtect\obj\Debug\ScreenProtect.exe
+c:\users\user76\documents\visual studio 2013\Projects\ScreenProtect\ScreenProtect\obj\Debug\ScreenProtect.pdb
+c:\users\user76\documents\visual studio 2013\Projects\ScreenProtect\ScreenProtect\obj\Debug\ScreenProtect.Form1.resources
+C:\Users\ian\Desktop\ScreenProtect\ScreenProtect\ScreenProtect\bin\Debug\ScreenProtect.exe.config
+C:\Users\ian\Desktop\ScreenProtect\ScreenProtect\ScreenProtect\obj\Debug\ScreenProtect.exe
+C:\Users\ian\Desktop\ScreenProtect\ScreenProtect\ScreenProtect\obj\Debug\ScreenProtect.pdb
+C:\Users\ian\Desktop\hw4\ScreenProtect\ScreenProtect\ScreenProtect\bin\Debug\ScreenProtect.exe.config
+C:\Users\ian\Desktop\hw4\ScreenProtect\ScreenProtect\ScreenProtect\obj\Debug\ScreenProtect.exe
+C:\Users\ian\Desktop\hw4\ScreenProtect\ScreenProtect\ScreenProtect\obj\Debug\ScreenProtect.pdb

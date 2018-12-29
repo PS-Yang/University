@@ -1,0 +1,36 @@
+﻿已經開始建置於 2015/3/30 下午 12:05:37。
+     1>節點 2 (Build 目標) 上的專案 "C:\Users\ian\Documents\Visual Studio 2013\Projects\S0054027_hw1\S0054027_hw1\S0054027_hw1.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\S0054027_hw1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt S0054027_hw1.cpp
+         S0054027_hw1.cpp
+     1>c:\users\ian\documents\visual studio 2013\projects\s0054027_hw1\s0054027_hw1\s0054027_hw1.cpp(342): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\ian\documents\visual studio 2013\projects\s0054027_hw1\s0054027_hw1\s0054027_hw1.cpp(343): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\ian\documents\visual studio 2013\projects\s0054027_hw1\s0054027_hw1\s0054027_hw1.cpp(344): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\ian\documents\visual studio 2013\projects\s0054027_hw1\s0054027_hw1\s0054027_hw1.cpp(345): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\ian\documents\visual studio 2013\projects\s0054027_hw1\s0054027_hw1\s0054027_hw1.cpp(346): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\ian\documents\visual studio 2013\projects\s0054027_hw1\s0054027_hw1\s0054027_hw1.cpp(347): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\ian\documents\visual studio 2013\projects\s0054027_hw1\s0054027_hw1\s0054027_hw1.cpp(348): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\ian\documents\visual studio 2013\projects\s0054027_hw1\s0054027_hw1\s0054027_hw1.cpp(349): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\ian\documents\visual studio 2013\projects\s0054027_hw1\s0054027_hw1\s0054027_hw1.cpp(350): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\ian\documents\visual studio 2013\projects\s0054027_hw1\s0054027_hw1\s0054027_hw1.cpp(351): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\ian\documents\visual studio 2013\projects\s0054027_hw1\s0054027_hw1\s0054027_hw1.cpp(360): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\ian\documents\visual studio 2013\projects\s0054027_hw1\s0054027_hw1\s0054027_hw1.cpp(361): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\ian\documents\visual studio 2013\projects\s0054027_hw1\s0054027_hw1\s0054027_hw1.cpp(362): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\ian\documents\visual studio 2013\projects\s0054027_hw1\s0054027_hw1\s0054027_hw1.cpp(363): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\ian\documents\visual studio 2013\projects\s0054027_hw1\s0054027_hw1\s0054027_hw1.cpp(364): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\ian\documents\visual studio 2013\projects\s0054027_hw1\s0054027_hw1\s0054027_hw1.cpp(365): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\ian\documents\visual studio 2013\projects\s0054027_hw1\s0054027_hw1\s0054027_hw1.cpp(366): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\ian\documents\visual studio 2013\projects\s0054027_hw1\s0054027_hw1\s0054027_hw1.cpp(367): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\ian\documents\visual studio 2013\projects\s0054027_hw1\s0054027_hw1\s0054027_hw1.cpp(368): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\ian\documents\visual studio 2013\projects\s0054027_hw1\s0054027_hw1\s0054027_hw1.cpp(369): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\ian\documents\visual studio 2013\projects\s0054027_hw1\s0054027_hw1\s0054027_hw1.cpp(391): warning C4101: 'tch' : 未參考的區域變數
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ian\Documents\Visual Studio 2013\Projects\S0054027_hw1\Debug\S0054027_hw1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ian\Documents\Visual Studio 2013\Projects\S0054027_hw1\Debug\S0054027_hw1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ian\Documents\Visual Studio 2013\Projects\S0054027_hw1\Debug\S0054027_hw1.lib" /MACHINE:X86 Debug\S0054027_hw1.res
+         Debug\S0054027_hw1.obj
+         Debug\stdafx.obj
+         S0054027_hw1.vcxproj -> C:\Users\ian\Documents\Visual Studio 2013\Projects\S0054027_hw1\Debug\S0054027_hw1.exe
+     1>專案 "C:\Users\ian\Documents\Visual Studio 2013\Projects\S0054027_hw1\S0054027_hw1\S0054027_hw1.vcxproj" (Build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:00.53

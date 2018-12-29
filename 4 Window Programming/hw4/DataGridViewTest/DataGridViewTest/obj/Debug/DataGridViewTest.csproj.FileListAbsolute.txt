@@ -1,0 +1,12 @@
+c:\users\user76\documents\visual studio 2013\Projects\DataGridViewTest\DataGridViewTest\bin\Debug\DataGridViewTest.exe.config
+c:\users\user76\documents\visual studio 2013\Projects\DataGridViewTest\DataGridViewTest\bin\Debug\DataGridViewTest.exe
+c:\users\user76\documents\visual studio 2013\Projects\DataGridViewTest\DataGridViewTest\bin\Debug\DataGridViewTest.pdb
+c:\users\user76\documents\visual studio 2013\Projects\DataGridViewTest\DataGridViewTest\obj\Debug\DataGridViewTest.csprojResolveAssemblyReference.cache
+c:\users\user76\documents\visual studio 2013\Projects\DataGridViewTest\DataGridViewTest\obj\Debug\DataGridViewTest.Form1.resources
+c:\users\user76\documents\visual studio 2013\Projects\DataGridViewTest\DataGridViewTest\obj\Debug\DataGridViewTest.Properties.Resources.resources
+c:\users\user76\documents\visual studio 2013\Projects\DataGridViewTest\DataGridViewTest\obj\Debug\DataGridViewTest.csproj.GenerateResource.Cache
+c:\users\user76\documents\visual studio 2013\Projects\DataGridViewTest\DataGridViewTest\obj\Debug\DataGridViewTest.exe
+c:\users\user76\documents\visual studio 2013\Projects\DataGridViewTest\DataGridViewTest\obj\Debug\DataGridViewTest.pdb
+C:\Users\ian\Documents\GitHub\universityHW\4 視窗程式設計\hw4\DataGridViewTest\DataGridViewTest\bin\Debug\DataGridViewTest.exe.config
+C:\Users\ian\Documents\GitHub\universityHW\4 視窗程式設計\hw4\DataGridViewTest\DataGridViewTest\obj\Debug\DataGridViewTest.exe
+C:\Users\ian\Documents\GitHub\universityHW\4 視窗程式設計\hw4\DataGridViewTest\DataGridViewTest\obj\Debug\DataGridViewTest.pdb
