@@ -1,0 +1,59 @@
+﻿已經開始建置於 2015/5/4 上午 03:15:59。
+     1>節點 2 (Build 目標) 上的專案 "C:\Users\ian\Desktop\S0054027- 揚博善\S0054027_hw2\S0054027_hw2\S0054027_hw2.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\S0054027_hw2.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\S0054027_hw2.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ChildFrm.cpp MainFrm.cpp ModelessDlg.cpp S0054027_hw2.cpp S0054027_hw2Doc.cpp S0054027_hw2View.cpp
+         S0054027_hw2View.cpp
+     1>c:\users\ian\desktop\s0054027- 揚博善\s0054027_hw2\s0054027_hw2\s0054027_hw2doc.h(19): warning C4351: 新行為: 陣列元素 'CS0054027_hw2Doc::data_number' 將會預設為初始化
+     1>c:\users\ian\desktop\s0054027- 揚博善\s0054027_hw2\s0054027_hw2\s0054027_hw2doc.h(20): warning C4351: 新行為: 陣列元素 'CS0054027_hw2Doc::color' 將會預設為初始化
+     1>c:\users\ian\desktop\s0054027- 揚博善\s0054027_hw2\s0054027_hw2\s0054027_hw2view.cpp(186): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\ian\desktop\s0054027- 揚博善\s0054027_hw2\s0054027_hw2\s0054027_hw2view.cpp(187): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\ian\desktop\s0054027- 揚博善\s0054027_hw2\s0054027_hw2\s0054027_hw2view.cpp(188): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\ian\desktop\s0054027- 揚博善\s0054027_hw2\s0054027_hw2\s0054027_hw2view.cpp(189): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\ian\desktop\s0054027- 揚博善\s0054027_hw2\s0054027_hw2\s0054027_hw2view.cpp(190): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\ian\desktop\s0054027- 揚博善\s0054027_hw2\s0054027_hw2\s0054027_hw2view.cpp(191): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\ian\desktop\s0054027- 揚博善\s0054027_hw2\s0054027_hw2\s0054027_hw2view.cpp(192): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\ian\desktop\s0054027- 揚博善\s0054027_hw2\s0054027_hw2\s0054027_hw2view.cpp(193): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\ian\desktop\s0054027- 揚博善\s0054027_hw2\s0054027_hw2\s0054027_hw2view.cpp(194): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\ian\desktop\s0054027- 揚博善\s0054027_hw2\s0054027_hw2\s0054027_hw2view.cpp(195): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\ian\desktop\s0054027- 揚博善\s0054027_hw2\s0054027_hw2\s0054027_hw2view.cpp(219): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\ian\desktop\s0054027- 揚博善\s0054027_hw2\s0054027_hw2\s0054027_hw2view.cpp(220): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\ian\desktop\s0054027- 揚博善\s0054027_hw2\s0054027_hw2\s0054027_hw2view.cpp(221): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\ian\desktop\s0054027- 揚博善\s0054027_hw2\s0054027_hw2\s0054027_hw2view.cpp(222): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\ian\desktop\s0054027- 揚博善\s0054027_hw2\s0054027_hw2\s0054027_hw2view.cpp(223): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\ian\desktop\s0054027- 揚博善\s0054027_hw2\s0054027_hw2\s0054027_hw2view.cpp(224): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\ian\desktop\s0054027- 揚博善\s0054027_hw2\s0054027_hw2\s0054027_hw2view.cpp(225): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\ian\desktop\s0054027- 揚博善\s0054027_hw2\s0054027_hw2\s0054027_hw2view.cpp(226): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\ian\desktop\s0054027- 揚博善\s0054027_hw2\s0054027_hw2\s0054027_hw2view.cpp(227): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\ian\desktop\s0054027- 揚博善\s0054027_hw2\s0054027_hw2\s0054027_hw2view.cpp(228): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\ian\desktop\s0054027- 揚博善\s0054027_hw2\s0054027_hw2\s0054027_hw2view.cpp(243): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+         S0054027_hw2Doc.cpp
+     1>c:\users\ian\desktop\s0054027- 揚博善\s0054027_hw2\s0054027_hw2\s0054027_hw2doc.h(19): warning C4351: 新行為: 陣列元素 'CS0054027_hw2Doc::data_number' 將會預設為初始化
+     1>c:\users\ian\desktop\s0054027- 揚博善\s0054027_hw2\s0054027_hw2\s0054027_hw2doc.h(20): warning C4351: 新行為: 陣列元素 'CS0054027_hw2Doc::color' 將會預設為初始化
+         S0054027_hw2.cpp
+     1>c:\users\ian\desktop\s0054027- 揚博善\s0054027_hw2\s0054027_hw2\s0054027_hw2doc.h(19): warning C4351: 新行為: 陣列元素 'CS0054027_hw2Doc::data_number' 將會預設為初始化
+     1>c:\users\ian\desktop\s0054027- 揚博善\s0054027_hw2\s0054027_hw2\s0054027_hw2doc.h(20): warning C4351: 新行為: 陣列元素 'CS0054027_hw2Doc::color' 將會預設為初始化
+         ModelessDlg.cpp
+     1>c:\users\ian\desktop\s0054027- 揚博善\s0054027_hw2\s0054027_hw2\s0054027_hw2doc.h(19): warning C4351: 新行為: 陣列元素 'CS0054027_hw2Doc::data_number' 將會預設為初始化
+     1>c:\users\ian\desktop\s0054027- 揚博善\s0054027_hw2\s0054027_hw2\s0054027_hw2doc.h(20): warning C4351: 新行為: 陣列元素 'CS0054027_hw2Doc::color' 將會預設為初始化
+         MainFrm.cpp
+         ChildFrm.cpp
+         正在產生程式碼...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0404" /IDebug\ /nologo /fo"Debug\S0054027_hw2.res" S0054027_hw2.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ian\Desktop\S0054027- 揚博善\S0054027_hw2\Debug\S0054027_hw2.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\ian\Desktop\S0054027- 揚博善\S0054027_hw2\Debug\S0054027_hw2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ian\Desktop\S0054027- 揚博善\S0054027_hw2\Debug\S0054027_hw2.lib" /MACHINE:X86 Debug\S0054027_hw2.res
+         Debug\ChildFrm.obj
+         Debug\MainFrm.obj
+         Debug\ModelessDlg.obj
+         Debug\S0054027_hw2.obj
+         Debug\S0054027_hw2Doc.obj
+         Debug\S0054027_hw2View.obj
+         Debug\stdafx.obj
+         S0054027_hw2.vcxproj -> C:\Users\ian\Desktop\S0054027- 揚博善\S0054027_hw2\Debug\S0054027_hw2.exe
+     1>專案 "C:\Users\ian\Desktop\S0054027- 揚博善\S0054027_hw2\S0054027_hw2\S0054027_hw2.vcxproj" (Build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:06.59
